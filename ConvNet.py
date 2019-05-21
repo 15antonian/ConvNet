@@ -11,10 +11,6 @@ import tensorflow as tf
 from tensorflow.python.framework import ops
 from cnn_utils import *
 
-
-
-
-
 #Loading the data
 X_train_orig, Y_train_orig, X_test_orig, Y_test_orig, classes = load_dataset()
 
